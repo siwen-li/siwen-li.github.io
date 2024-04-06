@@ -8,11 +8,43 @@
     <author>
       <name>siwen</name>
     </author>
-    <updated>2024-04-06T08:31:07.000Z</updated>
+    <updated>2024-04-06T15:33:37.610Z</updated>
     <entry>
-        <id>http://swsw.eu.org/test/</id>
+        <id>http://swsw.eu.org/about/</id>
+        <title></title>
+        <link rel="alternate" href="http://swsw.eu.org/about/"/>
+        <content type="html">&lt;h1 id=&#34;关于&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关于&#34;&gt;#&lt;/a&gt; 关于&lt;/h1&gt;
+&lt;h2 id=&#34;占个位&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#占个位&#34;&gt;#&lt;/a&gt; 占个位&lt;/h2&gt;
+</content>
+        <updated>2024-04-06T15:33:37.610Z</updated>
+    </entry>
+    <entry>
+        <id>http://swsw.eu.org/code/python/b/</id>
+        <title>Python</title>
+        <link rel="alternate" href="http://swsw.eu.org/code/python/b/"/>
+        <content type="html">&lt;h1 id=&#34;占个位&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#占个位&#34;&gt;#&lt;/a&gt; 占个位&lt;/h1&gt;
+</content>
+        <category term="学习" scheme="http://swsw.eu.org/categories/code/" />
+        <category term="Python" scheme="http://swsw.eu.org/categories/code/python/" />
+        <category term="python" scheme="http://swsw.eu.org/tags/python/" />
+        <updated>2024-04-06T15:19:24.394Z</updated>
+    </entry>
+    <entry>
+        <id>http://swsw.eu.org/code/mysql/a/</id>
+        <title>MySQL</title>
+        <link rel="alternate" href="http://swsw.eu.org/code/mysql/a/"/>
+        <content type="html">&lt;h1 id=&#34;占个位&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#占个位&#34;&gt;#&lt;/a&gt; 占个位&lt;/h1&gt;
+</content>
+        <category term="学习" scheme="http://swsw.eu.org/categories/code/" />
+        <category term="MySQL" scheme="http://swsw.eu.org/categories/code/mysql/" />
+        <category term="sql" scheme="http://swsw.eu.org/tags/sql/" />
+        <category term="mysql" scheme="http://swsw.eu.org/tags/mysql/" />
+        <updated>2024-04-06T15:19:17.990Z</updated>
+    </entry>
+    <entry>
+        <id>http://swsw.eu.org/other/test/</id>
         <title>quiz（练习题）</title>
-        <link rel="alternate" href="http://swsw.eu.org/test/"/>
+        <link rel="alternate" href="http://swsw.eu.org/other/test/"/>
         <content type="html">&lt;ol&gt;
 &lt;li class=&#34;quiz&#34;&gt;
 &lt;p&gt;题目 &lt;span class=&#34;gap&#34;&gt;&lt;/span&gt;&lt;/p&gt;
@@ -61,12 +93,13 @@ choice: 单选题&lt;br /&gt;
  gap_fill: 填空题&lt;br /&gt;
  mistake: 错题备注&lt;/p&gt;
 </content>
+        <category term="杂项" scheme="http://swsw.eu.org/categories/other/" />
         <updated>2024-04-06T08:31:07.000Z</updated>
     </entry>
     <entry>
-        <id>http://swsw.eu.org/sql/oracle/window_function/</id>
+        <id>http://swsw.eu.org/code/oracle/window_function/</id>
         <title>窗口函数</title>
-        <link rel="alternate" href="http://swsw.eu.org/sql/oracle/window_function/"/>
+        <link rel="alternate" href="http://swsw.eu.org/code/oracle/window_function/"/>
         <content type="html">&lt;h1 id=&#34;窗口函数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#窗口函数&#34;&gt;#&lt;/a&gt; 窗口函数&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;窗口函数又叫开窗函数、分析函数，也可以称为 OLAP 函数，OLAP 是 OnLine Analytical Processing 的简称，意思是对数据库数据进行实时分析处理。&lt;/p&gt;
@@ -276,16 +309,16 @@ choice: 单选题&lt;br /&gt;
 &lt;p&gt;环比增长率计算公式：(当月值 - 上月值)/ 上月值 x100%&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
-        <category term="SQL" scheme="http://swsw.eu.org/categories/sql/" />
-        <category term="oracle" scheme="http://swsw.eu.org/categories/sql/oracle/" />
+        <category term="学习" scheme="http://swsw.eu.org/categories/code/" />
+        <category term="Oracle" scheme="http://swsw.eu.org/categories/code/oracle/" />
         <category term="sql" scheme="http://swsw.eu.org/tags/sql/" />
         <category term="oracle" scheme="http://swsw.eu.org/tags/oracle/" />
         <updated>2024-04-06T07:57:30.480Z</updated>
     </entry>
     <entry>
-        <id>http://swsw.eu.org/sql/oracle/REGEXP_SUBSTR/</id>
+        <id>http://swsw.eu.org/code/oracle/REGEXP_SUBSTR/</id>
         <title>REGEXP_SUBSTR</title>
-        <link rel="alternate" href="http://swsw.eu.org/sql/oracle/REGEXP_SUBSTR/"/>
+        <link rel="alternate" href="http://swsw.eu.org/code/oracle/REGEXP_SUBSTR/"/>
         <content type="html">&lt;h1 id=&#34;regexp_substr&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#regexp_substr&#34;&gt;#&lt;/a&gt; REGEXP_SUBSTR&lt;/h1&gt;
 &lt;h2 id=&#34;语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#语法&#34;&gt;#&lt;/a&gt; 语法&lt;/h2&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./assets/regexp_substr.gif&#34; alt=&#34;REGEXP_SUBSTR 函数语法&#34; /&gt;&lt;/p&gt;
@@ -352,17 +385,17 @@ CITY_AREA                   MIN_AREA1                   MIN_AREA2&lt;br /&gt;
 呼和浩特市                   呼和浩特市                    呼和浩特市&lt;/li&gt;
 &lt;/ol&gt;
 </content>
-        <category term="SQL" scheme="http://swsw.eu.org/categories/sql/" />
-        <category term="oracle" scheme="http://swsw.eu.org/categories/sql/oracle/" />
+        <category term="学习" scheme="http://swsw.eu.org/categories/code/" />
+        <category term="Oracle" scheme="http://swsw.eu.org/categories/code/oracle/" />
         <category term="regexp" scheme="http://swsw.eu.org/tags/regexp/" />
         <category term="sql" scheme="http://swsw.eu.org/tags/sql/" />
         <category term="oracle" scheme="http://swsw.eu.org/tags/oracle/" />
         <updated>2024-04-06T07:57:30.479Z</updated>
     </entry>
     <entry>
-        <id>http://swsw.eu.org/sql/oracle/SYS_CONNECT_BY_PATH/</id>
+        <id>http://swsw.eu.org/code/oracle/SYS_CONNECT_BY_PATH/</id>
         <title>SYS_CONNECT_BY_PATH</title>
-        <link rel="alternate" href="http://swsw.eu.org/sql/oracle/SYS_CONNECT_BY_PATH/"/>
+        <link rel="alternate" href="http://swsw.eu.org/code/oracle/SYS_CONNECT_BY_PATH/"/>
         <content type="html">&lt;h1 id=&#34;sys_connect_by_path&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#sys_connect_by_path&#34;&gt;#&lt;/a&gt; SYS_CONNECT_BY_PATH&lt;/h1&gt;
 &lt;h2 id=&#34;语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#语法&#34;&gt;#&lt;/a&gt; 语法&lt;/h2&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./assets/sys_connect_by_path.gif&#34; alt=&#34;SYS_CONNECT_BY_PATH 语法&#34; /&gt;&lt;/p&gt;
@@ -371,16 +404,16 @@ CITY_AREA                   MIN_AREA1                   MIN_AREA2&lt;br /&gt;
 &lt;h2 id=&#34;示例&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#示例&#34;&gt;#&lt;/a&gt; 示例&lt;/h2&gt;
 &lt;p&gt;返回从员工  &lt;code&gt;Kochhar&lt;/code&gt;  到所有  &lt;code&gt;Kochhar&lt;/code&gt;  的员工 (及其员工) 的员工姓名路径:&lt;/p&gt;
 &lt;figure class=&#34;highlight sql&#34;&gt;&lt;figcaption data-lang=&#34;SQL&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;select&lt;/span&gt; LPAD&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39; &#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;level&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;||&lt;/span&gt; sys_connect_by_path&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;last_name&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;/&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Path&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; employees &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;start&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;with&lt;/span&gt; last_name &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;Kochhar&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;connect&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;by&lt;/span&gt; prior employee_id &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; manager_id&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Path&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;------------------------------&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Greenberg&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Chen&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Greenberg&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Faviet&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Greenberg&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Popp&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Greenberg&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Sciarra&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Greenberg&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Urman&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Higgins&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Gietz&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Baer&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Greenberg&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Higgins&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Mavris&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Whalen&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
-        <category term="SQL" scheme="http://swsw.eu.org/categories/sql/" />
-        <category term="oracle" scheme="http://swsw.eu.org/categories/sql/oracle/" />
+        <category term="学习" scheme="http://swsw.eu.org/categories/code/" />
+        <category term="Oracle" scheme="http://swsw.eu.org/categories/code/oracle/" />
         <category term="sql" scheme="http://swsw.eu.org/tags/sql/" />
         <category term="oracle" scheme="http://swsw.eu.org/tags/oracle/" />
         <updated>2024-04-06T07:57:30.479Z</updated>
     </entry>
     <entry>
-        <id>http://swsw.eu.org/sql/oracle/REGEXP_REPLACE/</id>
+        <id>http://swsw.eu.org/code/oracle/REGEXP_REPLACE/</id>
         <title>REGEXP_REPLACE</title>
-        <link rel="alternate" href="http://swsw.eu.org/sql/oracle/REGEXP_REPLACE/"/>
+        <link rel="alternate" href="http://swsw.eu.org/code/oracle/REGEXP_REPLACE/"/>
         <content type="html">&lt;h1 id=&#34;regexp_replace&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#regexp_replace&#34;&gt;#&lt;/a&gt; REGEXP_REPLACE&lt;/h1&gt;
 &lt;h2 id=&#34;语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#语法&#34;&gt;#&lt;/a&gt; 语法&lt;/h2&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./assets/regexp_replace.gif&#34; alt=&#34;REGEXP_REPLACE 函数语法&#34; /&gt;&lt;/p&gt;
@@ -473,17 +506,17 @@ STR&lt;br /&gt;
 abcDefg&lt;/li&gt;
 &lt;/ol&gt;
 </content>
-        <category term="SQL" scheme="http://swsw.eu.org/categories/sql/" />
-        <category term="oracle" scheme="http://swsw.eu.org/categories/sql/oracle/" />
+        <category term="学习" scheme="http://swsw.eu.org/categories/code/" />
+        <category term="Oracle" scheme="http://swsw.eu.org/categories/code/oracle/" />
         <category term="regexp" scheme="http://swsw.eu.org/tags/regexp/" />
         <category term="sql" scheme="http://swsw.eu.org/tags/sql/" />
         <category term="oracle" scheme="http://swsw.eu.org/tags/oracle/" />
         <updated>2024-04-06T07:57:30.478Z</updated>
     </entry>
     <entry>
-        <id>http://swsw.eu.org/sql/oracle/REGEXP_LIKE/</id>
+        <id>http://swsw.eu.org/code/oracle/REGEXP_LIKE/</id>
         <title>REGEXP_LIKE</title>
-        <link rel="alternate" href="http://swsw.eu.org/sql/oracle/REGEXP_LIKE/"/>
+        <link rel="alternate" href="http://swsw.eu.org/code/oracle/REGEXP_LIKE/"/>
         <content type="html">&lt;h1 id=&#34;regexp_like&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#regexp_like&#34;&gt;#&lt;/a&gt; REGEXP_LIKE&lt;/h1&gt;
 &lt;h2 id=&#34;语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#语法&#34;&gt;#&lt;/a&gt; 语法&lt;/h2&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./assets/regexp_like_condition.gif&#34; alt=&#34;regexp_like_condition 语法&#34; /&gt;&lt;/p&gt;
@@ -534,17 +567,17 @@ Khoo&lt;br /&gt;
 Lee&lt;/li&gt;
 &lt;/ol&gt;
 </content>
-        <category term="SQL" scheme="http://swsw.eu.org/categories/sql/" />
-        <category term="oracle" scheme="http://swsw.eu.org/categories/sql/oracle/" />
+        <category term="学习" scheme="http://swsw.eu.org/categories/code/" />
+        <category term="Oracle" scheme="http://swsw.eu.org/categories/code/oracle/" />
         <category term="regexp" scheme="http://swsw.eu.org/tags/regexp/" />
         <category term="sql" scheme="http://swsw.eu.org/tags/sql/" />
         <category term="oracle" scheme="http://swsw.eu.org/tags/oracle/" />
         <updated>2024-04-06T07:57:30.477Z</updated>
     </entry>
     <entry>
-        <id>http://swsw.eu.org/sql/oracle/REGEXP_INSTR/</id>
+        <id>http://swsw.eu.org/code/oracle/REGEXP_INSTR/</id>
         <title>REGEXP_INSTR</title>
-        <link rel="alternate" href="http://swsw.eu.org/sql/oracle/REGEXP_INSTR/"/>
+        <link rel="alternate" href="http://swsw.eu.org/code/oracle/REGEXP_INSTR/"/>
         <content type="html">&lt;h1 id=&#34;regexp_instr&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#regexp_instr&#34;&gt;#&lt;/a&gt; REGEXP_INSTR&lt;/h1&gt;
 &lt;h2 id=&#34;语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#语法&#34;&gt;#&lt;/a&gt; 语法&lt;/h2&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./assets/regexp_instr.gif&#34; alt=&#34;REGEXP_INSTR 函数语法&#34; /&gt;&lt;/p&gt;
@@ -605,17 +638,17 @@ IS_A_VALID_EMAIL IS_A_VALID_EMAIL&lt;br /&gt;
 0                1&lt;/li&gt;
 &lt;/ol&gt;
 </content>
-        <category term="SQL" scheme="http://swsw.eu.org/categories/sql/" />
-        <category term="oracle" scheme="http://swsw.eu.org/categories/sql/oracle/" />
+        <category term="学习" scheme="http://swsw.eu.org/categories/code/" />
+        <category term="Oracle" scheme="http://swsw.eu.org/categories/code/oracle/" />
         <category term="regexp" scheme="http://swsw.eu.org/tags/regexp/" />
         <category term="sql" scheme="http://swsw.eu.org/tags/sql/" />
         <category term="oracle" scheme="http://swsw.eu.org/tags/oracle/" />
         <updated>2024-04-06T07:57:30.476Z</updated>
     </entry>
     <entry>
-        <id>http://swsw.eu.org/sql/oracle/REGEXP_COUNT/</id>
+        <id>http://swsw.eu.org/code/oracle/REGEXP_COUNT/</id>
         <title>REGEXP_COUNT</title>
-        <link rel="alternate" href="http://swsw.eu.org/sql/oracle/REGEXP_COUNT/"/>
+        <link rel="alternate" href="http://swsw.eu.org/code/oracle/REGEXP_COUNT/"/>
         <content type="html">&lt;h1 id=&#34;regexp_count&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#regexp_count&#34;&gt;#&lt;/a&gt; REGEXP_COUNT&lt;/h1&gt;
 &lt;h2 id=&#34;语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#语法&#34;&gt;#&lt;/a&gt; 语法&lt;/h2&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./assets/regexp_count.gif&#34; alt=&#34;regexp_count 函数语法&#34; /&gt;&lt;/p&gt;
@@ -695,17 +728,17 @@ MATCH1     MATCH2&lt;br /&gt;
 0          1&lt;/li&gt;
 &lt;/ol&gt;
 </content>
-        <category term="SQL" scheme="http://swsw.eu.org/categories/sql/" />
-        <category term="oracle" scheme="http://swsw.eu.org/categories/sql/oracle/" />
+        <category term="学习" scheme="http://swsw.eu.org/categories/code/" />
+        <category term="Oracle" scheme="http://swsw.eu.org/categories/code/oracle/" />
         <category term="regexp" scheme="http://swsw.eu.org/tags/regexp/" />
         <category term="sql" scheme="http://swsw.eu.org/tags/sql/" />
         <category term="oracle" scheme="http://swsw.eu.org/tags/oracle/" />
         <updated>2024-04-06T07:57:30.475Z</updated>
     </entry>
     <entry>
-        <id>http://swsw.eu.org/sql/oracle/Oracle_regular_expression/</id>
+        <id>http://swsw.eu.org/code/oracle/Oracle_regular_expression/</id>
         <title>oracle 正则表达式</title>
-        <link rel="alternate" href="http://swsw.eu.org/sql/oracle/Oracle_regular_expression/"/>
+        <link rel="alternate" href="http://swsw.eu.org/code/oracle/Oracle_regular_expression/"/>
         <content type="html">&lt;h1 id=&#34;oracle-正则表达式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#oracle-正则表达式&#34;&gt;#&lt;/a&gt; oracle 正则表达式&lt;/h1&gt;
 &lt;p&gt;!!! tip inline &amp;quot;tip&amp;quot;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;**正则表达式是一组由字母和符号组成的特殊文本，它可以用来从文本中找出满足你想要的格式的句子**
@@ -905,17 +938,17 @@ MATCH1     MATCH2&lt;br /&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 </content>
-        <category term="SQL" scheme="http://swsw.eu.org/categories/sql/" />
-        <category term="oracle" scheme="http://swsw.eu.org/categories/sql/oracle/" />
+        <category term="学习" scheme="http://swsw.eu.org/categories/code/" />
+        <category term="Oracle" scheme="http://swsw.eu.org/categories/code/oracle/" />
         <category term="regexp" scheme="http://swsw.eu.org/tags/regexp/" />
         <category term="sql" scheme="http://swsw.eu.org/tags/sql/" />
         <category term="oracle" scheme="http://swsw.eu.org/tags/oracle/" />
         <updated>2024-04-06T07:57:30.474Z</updated>
     </entry>
     <entry>
-        <id>http://swsw.eu.org/sql/oracle/Recursive_Query_Example/</id>
+        <id>http://swsw.eu.org/code/oracle/Recursive_Query_Example/</id>
         <title>递归查询示例</title>
-        <link rel="alternate" href="http://swsw.eu.org/sql/oracle/Recursive_Query_Example/"/>
+        <link rel="alternate" href="http://swsw.eu.org/code/oracle/Recursive_Query_Example/"/>
         <content type="html">&lt;h1 id=&#34;递归查询示例&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#递归查询示例&#34;&gt;#&lt;/a&gt; 递归查询示例&lt;/h1&gt;
 &lt;h2 id=&#34;准备数据&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#准备数据&#34;&gt;#&lt;/a&gt; 准备数据&lt;/h2&gt;
 &lt;figure class=&#34;highlight sql&#34;&gt;&lt;figcaption data-lang=&#34;SQL&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;-- 创建表并插入数据&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;create&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;table&lt;/span&gt; t_area&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;       id number&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;       parrent_id number&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;       name varchar2&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;insert&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;into&lt;/span&gt; t_area &lt;span class=&#34;token keyword&#34;&gt;values&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token boolean&#34;&gt;null&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;中国&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;insert&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;into&lt;/span&gt; t_area &lt;span class=&#34;token keyword&#34;&gt;values&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;广东省&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;insert&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;into&lt;/span&gt; t_area &lt;span class=&#34;token keyword&#34;&gt;values&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;上海市&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;insert&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;into&lt;/span&gt; t_area &lt;span class=&#34;token keyword&#34;&gt;values&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;贵州省&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;insert&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;into&lt;/span&gt; t_area &lt;span class=&#34;token keyword&#34;&gt;values&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;111&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;深圳市&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;insert&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;into&lt;/span&gt; t_area &lt;span class=&#34;token keyword&#34;&gt;values&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;112&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;广州市&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;insert&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;into&lt;/span&gt; t_area &lt;span class=&#34;token keyword&#34;&gt;values&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;113&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;佛山市&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;insert&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;into&lt;/span&gt; t_area &lt;span class=&#34;token keyword&#34;&gt;values&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;121&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;松江区&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;insert&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;into&lt;/span&gt; t_area &lt;span class=&#34;token keyword&#34;&gt;values&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;131&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;安顺市&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;insert&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;into&lt;/span&gt; t_area &lt;span class=&#34;token keyword&#34;&gt;values&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;132&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;遵义市&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;insert&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;into&lt;/span&gt; t_area &lt;span class=&#34;token keyword&#34;&gt;values&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1111&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;111&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;南山区&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;insert&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;into&lt;/span&gt; t_area &lt;span class=&#34;token keyword&#34;&gt;values&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1112&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;111&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;龙岗区&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;insert&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;into&lt;/span&gt; t_area &lt;span class=&#34;token keyword&#34;&gt;values&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1121&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;112&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;白云区&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;insert&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;into&lt;/span&gt; t_area &lt;span class=&#34;token keyword&#34;&gt;values&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1311&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;131&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;西秀区&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;insert&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;into&lt;/span&gt; t_area &lt;span class=&#34;token keyword&#34;&gt;values&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;13111&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1311&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;大西桥镇&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;commit&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;select&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; t_area&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;-- (1)!&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol&gt;
@@ -1000,16 +1033,16 @@ where rn &amp;lt; last_day(trunc(sysdate,&#39;mm&#39;)) - trunc(sysdate,&#39;mm&
 ```
 &lt;/code&gt;&lt;/pre&gt;
 </content>
-        <category term="SQL" scheme="http://swsw.eu.org/categories/sql/" />
-        <category term="oracle" scheme="http://swsw.eu.org/categories/sql/oracle/" />
+        <category term="学习" scheme="http://swsw.eu.org/categories/code/" />
+        <category term="Oracle" scheme="http://swsw.eu.org/categories/code/oracle/" />
         <category term="sql" scheme="http://swsw.eu.org/tags/sql/" />
         <category term="oracle" scheme="http://swsw.eu.org/tags/oracle/" />
         <updated>2024-04-06T07:57:30.474Z</updated>
     </entry>
     <entry>
-        <id>http://swsw.eu.org/sql/oracle/Hierarchical_Query_Pseudocolumns/</id>
+        <id>http://swsw.eu.org/code/oracle/Hierarchical_Query_Pseudocolumns/</id>
         <title>层次查询伪列</title>
-        <link rel="alternate" href="http://swsw.eu.org/sql/oracle/Hierarchical_Query_Pseudocolumns/"/>
+        <link rel="alternate" href="http://swsw.eu.org/code/oracle/Hierarchical_Query_Pseudocolumns/"/>
         <content type="html">&lt;h1 id=&#34;层次查询伪列&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#层次查询伪列&#34;&gt;#&lt;/a&gt; 层次查询伪列&lt;/h1&gt;
 &lt;p&gt;层次查询伪列仅在层次查询中有效。层次查询伪列包括:&lt;/p&gt;
 &lt;ul&gt;
@@ -1034,16 +1067,16 @@ where rn &amp;lt; last_day(trunc(sysdate,&#39;mm&#39;)) - trunc(sysdate,&#39;mm&
 &lt;p&gt;对于层次查询返回的每一行， &lt;code&gt;LEVEL&lt;/code&gt;  伪列返回 1 表示根行，2 表示根的子节点，以此类推。&lt;strong&gt;根行&lt;/strong&gt; 是倒置树中的最高行。&lt;strong&gt;子行&lt;/strong&gt; 是任何非根行。&lt;strong&gt;父行&lt;/strong&gt; 是任何具有子节点的行。&lt;strong&gt;叶行&lt;/strong&gt; 是任何没有子节点的行。下图显示了具有其  &lt;code&gt;LEVEL&lt;/code&gt;  值的倒置树的节点。&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./assets/sqlrf001.gif&#34; alt=&#34;层次树&#34; /&gt;&lt;/p&gt;
 </content>
-        <category term="SQL" scheme="http://swsw.eu.org/categories/sql/" />
-        <category term="oracle" scheme="http://swsw.eu.org/categories/sql/oracle/" />
+        <category term="学习" scheme="http://swsw.eu.org/categories/code/" />
+        <category term="Oracle" scheme="http://swsw.eu.org/categories/code/oracle/" />
         <category term="sql" scheme="http://swsw.eu.org/tags/sql/" />
         <category term="oracle" scheme="http://swsw.eu.org/tags/oracle/" />
         <updated>2024-04-06T07:57:30.473Z</updated>
     </entry>
     <entry>
-        <id>http://swsw.eu.org/sql/oracle/Hierarchical_Query_Operators/</id>
+        <id>http://swsw.eu.org/code/oracle/Hierarchical_Query_Operators/</id>
         <title>层次查询运算符</title>
-        <link rel="alternate" href="http://swsw.eu.org/sql/oracle/Hierarchical_Query_Operators/"/>
+        <link rel="alternate" href="http://swsw.eu.org/code/oracle/Hierarchical_Query_Operators/"/>
         <content type="html">&lt;h2 id=&#34;层次查询运算符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#层次查询运算符&#34;&gt;#&lt;/a&gt; 层次查询运算符&lt;/h2&gt;
 &lt;p&gt;仅在层次查询中才有效的运算符有两个， &lt;code&gt;PRIOR&lt;/code&gt;  和  &lt;code&gt;CONNECT_BY_ROOT&lt;/code&gt; 。&lt;/p&gt;
 &lt;h2 id=&#34;prior&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#prior&#34;&gt;#&lt;/a&gt; PRIOR&lt;/h2&gt;
@@ -1055,16 +1088,16 @@ where rn &amp;lt; last_day(trunc(sysdate,&#39;mm&#39;)) - trunc(sysdate,&#39;mm&
 &lt;p&gt;???+ warning&lt;br /&gt;
  不能在  &lt;code&gt;START WITH&lt;/code&gt;  条件或  &lt;code&gt;CONNECT BY&lt;/code&gt;  条件中指定此运算符。&lt;/p&gt;
 </content>
-        <category term="SQL" scheme="http://swsw.eu.org/categories/sql/" />
-        <category term="oracle" scheme="http://swsw.eu.org/categories/sql/oracle/" />
+        <category term="学习" scheme="http://swsw.eu.org/categories/code/" />
+        <category term="Oracle" scheme="http://swsw.eu.org/categories/code/oracle/" />
         <category term="sql" scheme="http://swsw.eu.org/tags/sql/" />
         <category term="oracle" scheme="http://swsw.eu.org/tags/oracle/" />
         <updated>2024-04-06T07:57:30.472Z</updated>
     </entry>
     <entry>
-        <id>http://swsw.eu.org/sql/oracle/Hierarchical_Queries/</id>
+        <id>http://swsw.eu.org/code/oracle/Hierarchical_Queries/</id>
         <title>层次查询</title>
-        <link rel="alternate" href="http://swsw.eu.org/sql/oracle/Hierarchical_Queries/"/>
+        <link rel="alternate" href="http://swsw.eu.org/code/oracle/Hierarchical_Queries/"/>
         <content type="html">&lt;h1 id=&#34;层次查询&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#层次查询&#34;&gt;#&lt;/a&gt; 层次查询&lt;/h1&gt;
 &lt;h2 id=&#34;语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#语法&#34;&gt;#&lt;/a&gt; 语法&lt;/h2&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./assets/hierarchical_query_clause.gif&#34; alt=&#34;层次查询子句语法&#34; /&gt;&lt;/p&gt;
@@ -1125,16 +1158,16 @@ where rn &amp;lt; last_day(trunc(sysdate,&#39;mm&#39;)) - trunc(sysdate,&#39;mm&
 &lt;p&gt;返回部门 110 中每个员工的姓、该员工在层次结构中高于其的最高级经理的姓、经理和员工之间的级别数，以及它们之间的路径:&lt;/p&gt;
 &lt;figure class=&#34;highlight sql&#34;&gt;&lt;figcaption data-lang=&#34;SQL&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;select&lt;/span&gt; last_name                           &lt;span class=&#34;token string&#34;&gt;&#34;Employee&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; connect_by_root last_name           &lt;span class=&#34;token string&#34;&gt;&#34;Manager&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;level&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Pathlen&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; sys_connect_by_path&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;last_name&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;/&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Path&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; employees&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;where&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;level&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;and&lt;/span&gt; department_id &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;110&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;connect&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;by&lt;/span&gt; prior employee_id &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; manager_id&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;order&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;by&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Employee&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Manager&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Pathlen&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Path&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Employee        Manager            Pathlen Path&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;--------------- --------------- ---------- ------------------------------&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Gietz           Higgins                  &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Higgins&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Gietz&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Gietz           King                     &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;King&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Higgins&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Gietz&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Gietz           Kochhar                  &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Higgins&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Gietz&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Higgins         King                     &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;King&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Higgins&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Higgins         Kochhar                  &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Higgins&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;使用  &lt;code&gt;GROUP BY&lt;/code&gt;  子句返回部门 110 中每个员工及层次结构中高于该员工的所有员工的总薪水:&lt;/p&gt;
 &lt;figure class=&#34;highlight sql&#34;&gt;&lt;figcaption data-lang=&#34;SQL&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;select&lt;/span&gt; name&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;salary&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Total_Salary&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;select&lt;/span&gt; connect_by_root last_name name&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; Salary&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; employees&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;where&lt;/span&gt; department_id &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;110&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;connect&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;by&lt;/span&gt; prior employee_id &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; manager_id&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;group&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;by&lt;/span&gt; name&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;order&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;by&lt;/span&gt; name&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Total_Salary&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;NAME                      Total_Salary&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;------------------------- ------------&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Gietz                             &lt;span class=&#34;token number&#34;&gt;8300&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Higgins                          &lt;span class=&#34;token number&#34;&gt;20300&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;King                             &lt;span class=&#34;token number&#34;&gt;20300&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Kochhar                          &lt;span class=&#34;token number&#34;&gt;20300&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
-        <category term="SQL" scheme="http://swsw.eu.org/categories/sql/" />
-        <category term="oracle" scheme="http://swsw.eu.org/categories/sql/oracle/" />
+        <category term="学习" scheme="http://swsw.eu.org/categories/code/" />
+        <category term="Oracle" scheme="http://swsw.eu.org/categories/code/oracle/" />
         <category term="sql" scheme="http://swsw.eu.org/tags/sql/" />
         <category term="oracle" scheme="http://swsw.eu.org/tags/oracle/" />
         <updated>2024-04-06T07:57:30.471Z</updated>
     </entry>
     <entry>
-        <id>http://swsw.eu.org/linux/sed/</id>
+        <id>http://swsw.eu.org/code/linux/sed/</id>
         <title>sed 流编辑器</title>
-        <link rel="alternate" href="http://swsw.eu.org/linux/sed/"/>
+        <link rel="alternate" href="http://swsw.eu.org/code/linux/sed/"/>
         <content type="html">&lt;h1 id=&#34;sed-流编辑器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#sed-流编辑器&#34;&gt;#&lt;/a&gt; sed 流编辑器&lt;/h1&gt;
 &lt;p&gt;=== &amp;quot;说明&amp;quot;&lt;br /&gt;
 !!! note&amp;quot; 说明 &amp;quot;&lt;br /&gt;
@@ -1311,14 +1344,15 @@ where rn &amp;lt; last_day(trunc(sysdate,&#39;mm&#39;)) - trunc(sysdate,&#39;mm&
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;sed命令示例&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#sed命令示例&#34;&gt;#&lt;/a&gt; sed 命令示例&lt;/h2&gt;
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 打印第 5 行&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# sed -n &#39;5p&#39; test.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 在每一行下面添加文本 &#34;day day up&#34;（不修改原文件）&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# sed &#39;a day day up&#39; test.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 在第 1 行上面添加两行 &#34;abcde&#34; 和 &#34;ABCDE&#34; &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# sed -i &#39;1i abcde\nABCDE&#39; test.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 把最后一行更改为 &#34;66666&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# sed -i &#39;$c 66666&#39; test.txt &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 把所有的字符 &#39;A&#39; 修改为 &#39;a&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# sed -i &#39;s/A/a/g&#39; test.txt &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 删除前 2 行&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# sed -i &#39;1,2d&#39; test.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 将 &#39;H&#39; 开头的行写入文件 file.txt &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# sed -n &#39;/^H/w file.txt&#39; test.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 将 file.txt 文件里的内容写入第 5 行下面&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# sed -i &#39;5r file.txt&#39; test.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 删除 &#39;l&#39; 开头的下一行&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# sed -i &#39;/^l/&amp;#123;n;d;&amp;#125;&#39; test.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 打印 2-5 行之外的行&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# sed -n &#39;2,5!p&#39; test.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 将所有出现一次以上的字母 &#39;b&#39; 修改成数字 &#39;8&#39; 打印出来 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# sed -nr &#39;s/b+/8/gp&#39; test.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 在第 6 行的内容删除 然后修改所有 &#39;*&#39; 为 &#39;#&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# sed -i -e &#39;5d&#39; -e &#39;s/*/#/g&#39; test.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 新建文件 file.sed 里面书写 sed 脚本 将 test.txt 文件中第一行到 &#39;?&#39; 结尾的行打印出来&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;38&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# echo &#34;/1,/^A/p&#34; &gt; file.sed &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;39&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# sed -n -f file.sed test.txt &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;40&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;41&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;## 后向引用&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;42&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;-- 先保护后使用 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;43&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;44&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 将 &#34;hello world&#34; 改成 &#34;[hello] [world]&#34; &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;45&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# echo &#34;hello world&#34; | sed -r &#39;s/(\w+)/[\1]/g&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;46&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# echo &#34;hello world&#34; | sed -r &#39;s/\w+/[&amp;amp;]/g&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;47&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;48&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 将每一行第一次连续出现 3 次的字符串替换成 ‘嗯哼～’ &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;49&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# sed -r -i&#39;s/([a-z])\1\1 / 嗯哼～/&#39; test.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;50&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;51&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 获取 linux 的 ip 地址 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;52&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# ip a s eth0 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;53&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;9&lt;/span&gt;: eth0: &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&gt;&lt;/span&gt; mtu &lt;span class=&#34;token number&#34;&gt;1500&lt;/span&gt; group default qlen &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;54&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    link/ether d8:c4:97:92:73:08&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;55&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    inet &lt;span class=&#34;token number&#34;&gt;169.254&lt;/span&gt;.248.50/16 brd &lt;span class=&#34;token number&#34;&gt;169.254&lt;/span&gt;.255.255 scope global dynamic&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;56&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;       valid_lft forever preferred_lft forever&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;57&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    inet6 fe80::5219:3165:3e7d:41fb/64 scope &lt;span class=&#34;token function&#34;&gt;link&lt;/span&gt; dynamic&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;58&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;       valid_lft forever preferred_lft forever&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;59&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;       &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;60&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# ip a s eth0 | sed -nr &#39;3s/(^.*t )(.*)(\/.*$)/\2/gp&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;61&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;62&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 使用 sed 命令将任意 3 个小写字母倒置 例如：&#39;abc&#39; 改为 &#39;cba&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;63&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# echo &#34;abc“ | sed -n &#39;s/([a-z])([0-z])(a-z)/\3\2\1/p&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
-        <category term="Linux" scheme="http://swsw.eu.org/categories/linux/" />
+        <category term="学习" scheme="http://swsw.eu.org/categories/code/" />
+        <category term="Linux" scheme="http://swsw.eu.org/categories/code/linux/" />
         <category term="linux" scheme="http://swsw.eu.org/tags/linux/" />
         <updated>2024-04-06T07:57:30.464Z</updated>
     </entry>
     <entry>
-        <id>http://swsw.eu.org/linux/Linunx_regular_expression/</id>
+        <id>http://swsw.eu.org/code/linux/Linunx_regular_expression/</id>
         <title>linux正则表达式</title>
-        <link rel="alternate" href="http://swsw.eu.org/linux/Linunx_regular_expression/"/>
+        <link rel="alternate" href="http://swsw.eu.org/code/linux/Linunx_regular_expression/"/>
         <content type="html">&lt;h1 id=&#34;linux正则表达式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#linux正则表达式&#34;&gt;#&lt;/a&gt; linux 正则表达式&lt;/h1&gt;
 &lt;p&gt;!!! tip &amp;quot;Linux 三剑客&amp;quot;&lt;br /&gt;
 -  &lt;code&gt;grep&lt;/code&gt;  文本过滤工具（过滤，查找文本内容）&lt;br /&gt;
@@ -1543,15 +1577,16 @@ where rn &amp;lt; last_day(trunc(sysdate,&#39;mm&#39;)) - trunc(sysdate,&#39;mm&
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;示例-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#示例-3&#34;&gt;#&lt;/a&gt; 示例&lt;/h3&gt;
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 匹配所有的单词&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# grep -P &#39;\w+&#39; test.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 匹配所有的非数字&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# grep -P &#39;\D&#39; test.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
-        <category term="Linux" scheme="http://swsw.eu.org/categories/linux/" />
+        <category term="学习" scheme="http://swsw.eu.org/categories/code/" />
+        <category term="Linux" scheme="http://swsw.eu.org/categories/code/linux/" />
         <category term="linux" scheme="http://swsw.eu.org/tags/linux/" />
         <category term="regexp" scheme="http://swsw.eu.org/tags/regexp/" />
         <updated>2024-04-06T07:57:30.462Z</updated>
     </entry>
     <entry>
-        <id>http://swsw.eu.org/linux/grep/</id>
+        <id>http://swsw.eu.org/code/linux/grep/</id>
         <title>grep 文本过滤工具</title>
-        <link rel="alternate" href="http://swsw.eu.org/linux/grep/"/>
+        <link rel="alternate" href="http://swsw.eu.org/code/linux/grep/"/>
         <content type="html">&lt;h1 id=&#34;grep-文本过滤工具&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#grep-文本过滤工具&#34;&gt;#&lt;/a&gt; grep 文本过滤工具&lt;/h1&gt;
 &lt;p&gt;=== &amp;quot;说明&amp;quot;&lt;br /&gt;
 !!! note&amp;quot; 说明 &amp;quot;&lt;br /&gt;
@@ -1647,14 +1682,15 @@ where rn &amp;lt; last_day(trunc(sysdate,&#39;mm&#39;)) - trunc(sysdate,&#39;mm&
  -  &lt;code&gt;fgrep&lt;/code&gt;  简化版的 grep 命令，不支持正则表达式，但搜索速度快，系统资源使用率低&lt;/p&gt;
 &lt;h2 id=&#34;示例&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#示例&#34;&gt;#&lt;/a&gt; 示例&lt;/h2&gt;
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 统计空行的行数&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# grep -c &#39;^$&#39; test.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 包含字符 h 的行（不区分大小写）&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# grep -i &#39;h&#39; test.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 列出所有空行 并显示行号&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# grep -n &#39;^$&#39; test.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 列出所有非空行&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# grep -v &#39;^$&#39; test.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 列出所有以 S 开头的行和空行&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# grep -e &#39;^$&#39; -e &#39;^S&#39; test.txt &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 过滤所有的数字 只显示被匹配到的内容&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# grep -o &#39;[0-9]&#39; test.txt &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 列出内容包含 a 的文件名&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# grep -l &#39;a&#39; demo.txt test.txt pwd.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 匹配包含单词 you 的行&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# grep -w &#39;you&#39; test.txt &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 根据 file 里面的范文进行匹配&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# grep -f file test.txt &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 列出包含 can 的行以及其后三行 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# grep -A3 &#39;can&#39; test.txt  &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 列出包含 can 的行以及其前三行 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# grep -B3 &#39;can&#39; test.txt  &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 列出包含 can 的行以及其前后各三行 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# grep -C3 &#39;can&#39; test.txt  &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 重复 d 字符最少 2 次&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;38&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# grep -E &#39;d&amp;#123;2,&amp;#125;&#39; test.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
-        <category term="Linux" scheme="http://swsw.eu.org/categories/linux/" />
+        <category term="学习" scheme="http://swsw.eu.org/categories/code/" />
+        <category term="Linux" scheme="http://swsw.eu.org/categories/code/linux/" />
         <category term="linux" scheme="http://swsw.eu.org/tags/linux/" />
         <updated>2024-04-06T07:57:30.461Z</updated>
     </entry>
     <entry>
-        <id>http://swsw.eu.org/linux/awk_programming/</id>
+        <id>http://swsw.eu.org/code/linux/awk_programming/</id>
         <title>awk 编程</title>
-        <link rel="alternate" href="http://swsw.eu.org/linux/awk_programming/"/>
+        <link rel="alternate" href="http://swsw.eu.org/code/linux/awk_programming/"/>
         <content type="html">&lt;h1 id=&#34;awk-编程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#awk-编程&#34;&gt;#&lt;/a&gt; awk 编程&lt;/h1&gt;
 &lt;h2 id=&#34;awk-运算符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#awk-运算符&#34;&gt;#&lt;/a&gt; awk 运算符&lt;/h2&gt;
 &lt;h3 id=&#34;算术运算符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#算术运算符&#34;&gt;#&lt;/a&gt; 算术运算符&lt;/h3&gt;
@@ -2315,285 +2351,9 @@ salary 13 14 12
 ```
 &lt;/code&gt;&lt;/pre&gt;
 </content>
-        <category term="Linux" scheme="http://swsw.eu.org/categories/linux/" />
+        <category term="学习" scheme="http://swsw.eu.org/categories/code/" />
+        <category term="Linux" scheme="http://swsw.eu.org/categories/code/linux/" />
         <category term="linux" scheme="http://swsw.eu.org/tags/linux/" />
         <updated>2024-04-06T07:57:30.460Z</updated>
-    </entry>
-    <entry>
-        <id>http://swsw.eu.org/linux/awk/</id>
-        <title>awk 文本分析工具</title>
-        <link rel="alternate" href="http://swsw.eu.org/linux/awk/"/>
-        <content type="html">&lt;h1 id=&#34;awk-文本分析工具&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#awk-文本分析工具&#34;&gt;#&lt;/a&gt; awk 文本分析工具&lt;/h1&gt;
-&lt;p&gt;=== &amp;quot;说明&amp;quot;&lt;br /&gt;
-!!! note&amp;quot; 说明 &amp;quot;&lt;br /&gt;
- &lt;code&gt;awk&lt;/code&gt;  是一种编程语言，用于在 linux/uniⅸ 下对文本和数据进行处理。数据可以来自标准输入 (stdin)、一个或多个文件，或其它命令的输出。它支持用户自定义函数和动态正则表达式等先进功能，是 linux/unix 下的一个强大编程工具。它在命令行中使用，但更多是作为脚本来使用。 &lt;code&gt;awk&lt;/code&gt;  有很多内置的功能，比如数组、函数等，这是它和 C 语言的相同之处，灵活性是  &lt;code&gt;awk&lt;/code&gt;  最大的优势。&lt;/p&gt;
-&lt;p&gt;=== &amp;quot;语法&amp;quot;&lt;br /&gt;
-!!! abstract&amp;quot; 语法 &amp;quot;&lt;br /&gt;
- &lt;code&gt;shell         awk [option] &#39;PATTERN&amp;#123;ACTION STATEMENTS&amp;#125;&#39; FILE         &lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;awk-执行过程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#awk-执行过程&#34;&gt;#&lt;/a&gt; awk 执行过程&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://xlog.app/_next/image?url=https%3A%2F%2Fipfs.4everland.xyz%2Fipfs%2Fbafkreifgy2r5gbucf7f7xsnw3w7gt6bdmrcqtmmclchuiv5ikqckvi2s6m&amp;amp;w=384&amp;amp;q=75&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;awk-程序结构&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#awk-程序结构&#34;&gt;#&lt;/a&gt; awk 程序结构&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;结构&lt;/th&gt;
-&lt;th&gt;解释&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td awk-commands=&#34;&#34;&gt;BEGIN&lt;/td&gt;
-&lt;td&gt;可省略，里面的内容在 awk 读取文件之前执行&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td awk-commands=&#34;&#34;&gt;/pattern/&lt;/td&gt;
-&lt;td&gt;可省略，对于输入的每一行，都会执行一次该部分代码，可以添加 /parttern/ 对输入行进行过滤&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td awk-commands=&#34;&#34;&gt;END&lt;/td&gt;
-&lt;td&gt;可省略，里面的内容在 awk 读取文件完毕之后执行&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;示例&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#示例&#34;&gt;#&lt;/a&gt; 示例&lt;/h3&gt;
-&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 准备如下文本内容&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# cat emp.txt &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;001 张三 &lt;span class=&#34;token number&#34;&gt;1000&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;002 李四 &lt;span class=&#34;token number&#34;&gt;2000&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;003 王五 &lt;span class=&#34;token number&#34;&gt;3000&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;004 赵六 &lt;span class=&#34;token number&#34;&gt;2000&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;20&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;005 小红 &lt;span class=&#34;token number&#34;&gt;1800&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;30&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;006 小丽 &lt;span class=&#34;token number&#34;&gt;800&lt;/span&gt;  &lt;span class=&#34;token number&#34;&gt;20&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 用 awk 命令输出文本内容&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# awk &#39;&amp;#123;print&amp;#125;&#39; emp.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 输出文本内容，添加表头和表的结尾（-------------------）&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# awk &#39;BEGIN &amp;#123;print &#34;编号 姓名 工资 部门&#34;&amp;#125;&amp;#123;print&amp;#125; END &amp;#123;print &#34;-------------------&#34;&amp;#125;&#39; emp.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;编号 姓名 工资 部门&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;001 张三 &lt;span class=&#34;token number&#34;&gt;1000&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;002 李四 &lt;span class=&#34;token number&#34;&gt;2000&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;003 王五 &lt;span class=&#34;token number&#34;&gt;3000&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;004 赵六 &lt;span class=&#34;token number&#34;&gt;2000&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;20&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;005 小红 &lt;span class=&#34;token number&#34;&gt;1800&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;30&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;006 小丽 &lt;span class=&#34;token number&#34;&gt;800&lt;/span&gt;  &lt;span class=&#34;token number&#34;&gt;20&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;-------------------&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;awk-命令选项&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#awk-命令选项&#34;&gt;#&lt;/a&gt; awk 命令选项&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;选项&lt;/th&gt;
-&lt;th&gt;含义&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;-F fs&lt;/td&gt;
-&lt;td&gt;指定输入文件分隔符（默认是空白字符），fs 是一个字符串或者是一个正则表达式&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;-v var=value&lt;/td&gt;
-&lt;td&gt;赋值一个用户定义变量&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;-f scriptfile&lt;/td&gt;
-&lt;td&gt;从脚本文件中读取 awk 命令&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;???+ tip &amp;quot;awk 使用方式&amp;quot;&lt;br /&gt;
-===&amp;quot; 命令行使用 &amp;quot;&lt;br /&gt;
-- 直接在命令行里执行  &lt;code&gt;awk&lt;/code&gt;  命令&lt;br /&gt;
- &lt;code&gt;shell          awk &#39;&amp;#123;print&amp;#125;&#39; emp.txt         &lt;/code&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;=== &amp;quot;awk 脚本使用&amp;quot;
-    - 将awk代码写在文件里（一般以.awk为文件扩展名）,通过 -f 选项执行
-    ```shell 
-    awk -f file.awk emp.txt
-    ```
-=== &amp;quot;shell 脚本使用&amp;quot;
-    - 将awk命令写到shell脚本里，执行shell脚本
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;awk-模式和操作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#awk-模式和操作&#34;&gt;#&lt;/a&gt; awk 模式和操作&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;模式&lt;/th&gt;
-&lt;th&gt;含义&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;/pattern/&lt;/td&gt;
-&lt;td&gt;正则表达式&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;关系表达式&lt;/td&gt;
-&lt;td&gt;使用运算符进行操作&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;模式匹配表达式&lt;/td&gt;
-&lt;td&gt;~ （匹配）    !~ （不匹配）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;???+ quote&lt;br /&gt;
- 操作可以由一个或多个命令、函数、表达式组成，之间由换行符或分号隔开&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;awk 正则范围：
-
-- `/start/,/end/`
-- `NR==1,NR==5` 从第 1 行开始第 5 行结束
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;示例-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#示例-2&#34;&gt;#&lt;/a&gt; 示例&lt;/h3&gt;
-&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 输出 emp.txt 包含 &#39; 小 &#39; 字的行&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# awk &#39;/ 小 /&#39; emp.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 输出从包含 &#39; 张 &#39; 的行开始到包含 &#39; 赵 &#39; 的行结束&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# awk &#39;/ 张 /,/ 赵 /&#39; emp.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 输出前三行&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# awk &#39;NR&amp;lt;=3&#39; emp.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# awk &#39;NR==1,NR==3&#39; emp.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# awk &#39;NR&gt;=1 &amp;amp;&amp;amp; NR&amp;lt;=3&#39; emp.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 模式匹配则输出&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# awk &#39;666 ~ /[0-9]+/&#39; emp.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;blockquote&gt;
-&lt;p&gt;当使用模式后，如果只是输出行， &lt;code&gt;awk&lt;/code&gt;  语句部分可省略&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;awk-变量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#awk-变量&#34;&gt;#&lt;/a&gt; awk 变量&lt;/h2&gt;
-&lt;h3 id=&#34;内置变量预定义变量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#内置变量预定义变量&#34;&gt;#&lt;/a&gt; 内置变量（预定义变量）&lt;/h3&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;变量&lt;/th&gt;
-&lt;th&gt;含义&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;$0&lt;/td&gt;
-&lt;td&gt;执行过程中当前行的内容&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;$n&lt;/td&gt;
-&lt;td&gt;当前记录的第 n 个字段（分割后的第 n 列）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;NF&lt;/td&gt;
-&lt;td&gt;当前行的字段数，$NF 表示一行中最后一个字段&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;NR&lt;/td&gt;
-&lt;td&gt;当前行的行号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;FS&lt;/td&gt;
-&lt;td&gt;输入字段分隔符（默认是空白字符，可使用 - v 指定）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;OFS&lt;/td&gt;
-&lt;td&gt;输出字段分隔符（默认是一个空格，可使用 - v 指定）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;RS&lt;/td&gt;
-&lt;td&gt;输入记录分隔符（默认是一个换行符，可使用 - v 指定）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;ORS&lt;/td&gt;
-&lt;td&gt;输出记录分隔符（默认是一个换行符，可使用 - v 指定）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;FILENAME&lt;/td&gt;
-&lt;td&gt;当前文件的文件名&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;自定义变量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#自定义变量&#34;&gt;#&lt;/a&gt; 自定义变量&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;使用 - v 选项定义&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token parameter variable&#34;&gt;-v&lt;/span&gt; &lt;span class=&#34;token assign-left variable&#34;&gt;var&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;value&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
-&lt;li&gt;在  &lt;code&gt;awk&lt;/code&gt;  程序中定义&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;awk&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;BEGIN&amp;#123;var=value&amp;#125;&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;传递外部变量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#传递外部变量&#34;&gt;#&lt;/a&gt; 传递外部变量&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;使用  &lt;code&gt;-v&lt;/code&gt;  选项可以给  &lt;code&gt;awk&lt;/code&gt;  命令传递一个外部变量&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;在命令最后使用  &lt;code&gt;var=value&lt;/code&gt;  也可以传递一个外部变量&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;示例-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#示例-3&#34;&gt;#&lt;/a&gt; 示例&lt;/h3&gt;
-&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 打印 emp.txt 每一行的内容、行号和字段数&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# awk &#39;&amp;#123;print $0,NR,NF&amp;#125;&#39; emp.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 打印第 1 列、最后一列和倒数的 2 列的内容&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# awk &#39;&amp;#123;print $1,$NF,$(NF-1)&amp;#125;&#39; emp.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 将文本内容按照 &#34;部门 编号 姓名 工资&#34; 的顺序输出&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# awk &#39;&amp;#123;print $4,$1,$2,$3&amp;#125;&#39; emp.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 输出第 3 行的第 2 个字段 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# awk &#39;NR==3&amp;#123;print $2&amp;#125;&#39; emp.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 统计每个部门的人数 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# awk &#39;&amp;#123;print $NF&amp;#125;&#39; emp.txt | uniq -c&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 将输出字段分隔符修改为 &#39;:&#39; 并把输出结果写入 emp.txt.bak 文件 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# awk -v OFS=&#34;:&#34; &#39;&amp;#123;print $1,$2,$3,$4&amp;#125;&#39; emp.txt &gt; emp.bak.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# awk -v OFS=&#34;:&#34; &#39;NF=NF&#39; emp.txt &gt; emp.bak.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 针对 emp.txt.bak 文件每一行数据，输出: &#34;编号：xxx，姓名：xxx，工资：xxx&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# awk -F: &#39;&amp;#123;print &#34;编号：&#34;$1&#34;，姓名：&#34;$2&#34;，工资：&#34;$3&amp;#125;&#39; emp.bak.txt&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 自定义变量&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 方式一&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# echo | awk -v a=100 &#39;&amp;#123;print a&amp;#125;&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 方式二&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# echo | awk &#39;BEGIN&amp;#123;b=100;print b&amp;#125;&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 传递外部变量&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# a=&#39;aaa&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# b=&#39;bbb&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 方式一&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# echo | awk -v v1=$a -v v2=$b &#39;&amp;#123;print v1,v2&amp;#125;&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 方式二&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# echo | awk &#39;&amp;#123;print v1,v2&amp;#125;&#39; v1=$a v2=$b&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;???+ quote&lt;br /&gt;
--  &lt;code&gt;print&lt;/code&gt;  的参数以逗号分隔时，打印时以空格作为分隔符； &lt;code&gt;awk&lt;/code&gt;  中  &lt;code&gt;print&lt;/code&gt;  语句的引号被作为拼接符使用&lt;br /&gt;
- - 要使  &lt;code&gt;OFS&lt;/code&gt;  变量生效，必须对字段进行操作（可以设置  &lt;code&gt;NF=NF&lt;/code&gt; ， &lt;code&gt;NF+=0&lt;/code&gt; ， &lt;code&gt;$1=$1&lt;/code&gt;  ...）&lt;/p&gt;
-&lt;h2 id=&#34;格式化打印printf&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#格式化打印printf&#34;&gt;#&lt;/a&gt; 格式化打印（printf）&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;使用方式和 C 语言的  &lt;code&gt;printf&lt;/code&gt;  一样&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;print&lt;/code&gt;  显示结果时以逗号分隔，结果会自动将这些内容用分隔符进行分隔，并且不需要添加换行符；&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;printf&lt;/code&gt;  可以控制某一个字段的输出格式，需要手动添加换行符&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&amp;lt;br&amp;gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;常用格式替换符：&lt;/strong&gt;&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;符号&lt;/th&gt;
-&lt;th&gt;解释&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;%s&lt;/td&gt;
-&lt;td&gt;字符串&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;%f&lt;/td&gt;
-&lt;td&gt;浮点数&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;%d&lt;/td&gt;
-&lt;td&gt;十进制整数&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;%c&lt;/td&gt;
-&lt;td&gt;ASCII 字符&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;%%&lt;/td&gt;
-&lt;td&gt;% 本身&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;常用转义字符：&lt;/strong&gt;&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;符号&lt;/th&gt;
-&lt;th&gt;解释&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;\n&lt;/td&gt;
-&lt;td&gt;换行&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\t&lt;/td&gt;
-&lt;td&gt;水平制表符&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\v&lt;/td&gt;
-&lt;td&gt;垂直制表符&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\r&lt;/td&gt;
-&lt;td&gt;回车&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\b&lt;/td&gt;
-&lt;td&gt;后退&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\f&lt;/td&gt;
-&lt;td&gt;换页&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\a&lt;/td&gt;
-&lt;td&gt;警告字符&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\\\&lt;/td&gt;
-&lt;td&gt;\ 本身&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</content>
-        <category term="Linux" scheme="http://swsw.eu.org/categories/linux/" />
-        <category term="linux" scheme="http://swsw.eu.org/tags/linux/" />
-        <updated>2024-04-06T07:57:30.458Z</updated>
-    </entry>
-    <entry>
-        <id>http://swsw.eu.org/hello-world/</id>
-        <title>Hello World</title>
-        <link rel="alternate" href="http://swsw.eu.org/hello-world/"/>
-        <content type="html">&lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
-&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo new &lt;span class=&#34;token string&#34;&gt;&#34;My New Post&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/writing.html&#34;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo server&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/server.html&#34;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo generate&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/generating.html&#34;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
-</content>
-        <updated>2024-04-05T18:47:59.088Z</updated>
     </entry>
 </feed>
