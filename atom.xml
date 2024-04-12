@@ -140,7 +140,9 @@ choice: 单选题&lt;br /&gt;
 &lt;p&gt;&lt;code&gt;partition by&lt;/code&gt;  按照指定字段进行分区 (分组)&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;order by&lt;/code&gt;  将各个分区内的数据按照指定规则进行排序&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./assets/window_fun1.png&#34; alt=&#34;window_fun1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./assets/window_fun1.png&#34; alt=&#34;window_fun1&#34; /&gt;&lt;br /&gt;
+&amp;lt;p?&amp;gt;123&lt;/p&gt;&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;./assets/window_fun1.png&#34;/&gt;&lt;/p&gt;
 &lt;h3 id=&#34;window_expression-确定窗口边界&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#window_expression-确定窗口边界&#34;&gt;#&lt;/a&gt; &lt;strong&gt;window_expression 确定窗口边界&lt;/strong&gt;&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;窗口边界主要用于对  &lt;code&gt;partition by&lt;/code&gt;  的分组结果做进一步限制，并定位出限制后的运算范围&lt;/p&gt;
@@ -399,8 +401,9 @@ CITY_AREA                   MIN_AREA1                   MIN_AREA2&lt;br /&gt;
         <content type="html">&lt;h1 id=&#34;sys_connect_by_path&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#sys_connect_by_path&#34;&gt;#&lt;/a&gt; SYS_CONNECT_BY_PATH&lt;/h1&gt;
 &lt;h2 id=&#34;语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#语法&#34;&gt;#&lt;/a&gt; 语法&lt;/h2&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./assets/sys_connect_by_path.gif&#34; alt=&#34;SYS_CONNECT_BY_PATH 语法&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;!!! note &amp;quot;用途&amp;quot;&lt;br /&gt;
- &lt;code&gt;SYS_CONNECT_BY_PATH&lt;/code&gt;  仅在层次查询中有效。它返回从根到节点的列值路径，用  &lt;code&gt;char&lt;/code&gt;  为每个由  &lt;code&gt;CONNECT BY&lt;/code&gt;  条件返回的行分隔列值。 &lt;code&gt;column&lt;/code&gt;  和  &lt;code&gt;char&lt;/code&gt;  都可以是任何数据类型。&lt;/p&gt;
+&lt;div class=&#34;admonition note&#34;&gt;&lt;p class=&#34;admonition-title&#34;&gt;用途
+&lt;/p&gt;&lt;p&gt;&lt;code&gt;SYS_CONNECT_BY_PATH&lt;/code&gt; 仅在层次查询中有效。它返回从根到节点的列值路径, 用 &lt;code&gt;char&lt;/code&gt; 为每个由 &lt;code&gt;CONNECT BY&lt;/code&gt; 条件返回的行分隔列值。&lt;code&gt;column&lt;/code&gt; 和 &lt;code&gt;char&lt;/code&gt; 都可以是任何数据类型。&lt;/p&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;示例&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#示例&#34;&gt;#&lt;/a&gt; 示例&lt;/h2&gt;
 &lt;p&gt;返回从员工  &lt;code&gt;Kochhar&lt;/code&gt;  到所有  &lt;code&gt;Kochhar&lt;/code&gt;  的员工 (及其员工) 的员工姓名路径:&lt;/p&gt;
 &lt;figure class=&#34;highlight sql&#34;&gt;&lt;figcaption data-lang=&#34;SQL&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;select&lt;/span&gt; LPAD&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39; &#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;level&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;||&lt;/span&gt; sys_connect_by_path&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;last_name&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;/&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Path&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; employees &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;start&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;with&lt;/span&gt; last_name &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;Kochhar&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;connect&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;by&lt;/span&gt; prior employee_id &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; manager_id&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Path&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;------------------------------&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Greenberg&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Chen&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Greenberg&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Faviet&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Greenberg&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Popp&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Greenberg&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Sciarra&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Greenberg&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Urman&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Higgins&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Gietz&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Baer&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Greenberg&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Higgins&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Mavris&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Whalen&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;Kochhar&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
@@ -751,8 +754,8 @@ MATCH1     MATCH2&lt;br /&gt;
 &lt;li&gt;&lt;a href=&#34;https://livesql.oracle.com/apex/f?p=590:1:5368669717156:::RP::&#34;&gt;Oracle Live SQL&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&amp;lt;br&amp;gt;&lt;/p&gt;
-&lt;h3 id=&#34;正则表达式运算符和元符号&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#正则表达式运算符和元符号&#34;&gt;#&lt;/a&gt; 正则表达式运算符和元符号&lt;/h3&gt;
+&lt;br&gt;
+### 正则表达式运算符和元符号
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -763,7 +766,7 @@ MATCH1     MATCH2&lt;br /&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;\&lt;/td&gt;
-&lt;td&gt;反斜杠字符在不同的上下文中可以有四种不同的含义。它可以: &amp;lt;br&amp;gt; 代表自身 &amp;lt;br&amp;gt; 转义下一个字符 &amp;lt;br&amp;gt; 引入一个运算符 &amp;lt;br&amp;gt; 不做任何操作&lt;/td&gt;
+&lt;td&gt;反斜杠字符在不同的上下文中可以有四种不同的含义。它可以: &lt;br&gt; 代表自身 &lt;br&gt; 转义下一个字符 &lt;br&gt; 引入一个运算符 &lt;br&gt; 不做任何操作&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;*&lt;/td&gt;
@@ -1054,8 +1057,8 @@ where rn &amp;lt; last_day(trunc(sysdate,&#39;mm&#39;)) - trunc(sysdate,&#39;mm&
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;!!! info&lt;br /&gt;
- 要在查询中定义层级关系，必须使用  &lt;code&gt;CONNECT BY&lt;/code&gt;  子句。&lt;/p&gt;
+&lt;div class=&#34;admonition info&#34;&gt;&lt;p class=&#34;admonition-title&#34;&gt;info&lt;/p&gt;&lt;p&gt;要在查询中定义层级关系, 必须使用 &lt;code&gt;CONNECT BY&lt;/code&gt; 子句。&lt;/p&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;connect_by_iscycle&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#connect_by_iscycle&#34;&gt;#&lt;/a&gt; CONNECT_BY_ISCYCLE&lt;/h2&gt;
 &lt;p&gt;如果当前行有一个子节点也是其祖先节点，则  &lt;code&gt;CONNECT_BY_ISCYCLE&lt;/code&gt;  伪列返回 1, 否则返回 0。&lt;/p&gt;
 &lt;p&gt;只有在指定了  &lt;code&gt;CONNECT BY&lt;/code&gt;  子句的  &lt;code&gt;NOCYCLE&lt;/code&gt;  参数时，才能指定  &lt;code&gt;CONNECT_BY_ISCYCLE&lt;/code&gt; 。 &lt;code&gt;NOCYCLE&lt;/code&gt;  使 Oracle 能够返回，否则会因  &lt;code&gt;CONNECT BY&lt;/code&gt;  循环而失败的查询结果。&lt;/p&gt;
@@ -1137,8 +1140,9 @@ where rn &amp;lt; last_day(trunc(sysdate,&#39;mm&#39;)) - trunc(sysdate,&#39;mm&
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;要查找父行的子行，Oracle 会对父行的  &lt;code&gt;PRIOR&lt;/code&gt;  表达式进行求值，并对表中的每一行求值  &lt;code&gt;CONNECT BY&lt;/code&gt;  条件中的其他表达式。条件为真的行是父行的子行。 &lt;code&gt;CONNECT BY&lt;/code&gt;  条件可以包含其他条件来进一步过滤查询选择的行。&lt;/p&gt;
 &lt;p&gt;如果  &lt;code&gt;CONNECT BY&lt;/code&gt;  条件导致层次结构中的循环，则 Oracle 返回错误。如果一行既是另一行的父行 (或祖父行或直接祖先) 也是其子行 (或孙行或直接后代), 则会发生循环。&lt;/p&gt;
-&lt;p&gt;!!! warning annotate&lt;br /&gt;
- 在层次查询中，指定  &lt;code&gt;ORDER BY&lt;/code&gt;  或  &lt;code&gt;GROUP BY&lt;/code&gt;  会覆盖  &lt;code&gt;CONNECT BY&lt;/code&gt;  结果的层次顺序。如果要对具有相同父级的同级行进行排序，请使用  &lt;code&gt;ORDER SIBLINGS BY&lt;/code&gt;  子句。 (1)&lt;/p&gt;
+&lt;div class=&#34;admonition warning&#34;&gt;&lt;p class=&#34;admonition-title&#34;&gt;annotate 
+&lt;/p&gt;&lt;p&gt;在层次查询中, 指定 &lt;code&gt;ORDER BY&lt;/code&gt; 或 &lt;code&gt;GROUP BY&lt;/code&gt; 会覆盖 &lt;code&gt;CONNECT BY&lt;/code&gt; 结果的层次顺序。如果要对具有相同父级的同级行进行排序, 请使用 &lt;code&gt;ORDER SIBLINGS BY&lt;/code&gt; 子句。 (1)&lt;/p&gt;
+&lt;/div&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;em&gt;order_by_clause&lt;/em&gt;::=&lt;br /&gt;
 &lt;img loading=&#34;lazy&#34; data-src=&#34;./assets/order_by_clause.gif&#34; alt=&#34;order by&#34; /&gt;&lt;/li&gt;
@@ -1424,9 +1428,9 @@ where rn &amp;lt; last_day(trunc(sysdate,&#39;mm&#39;)) - trunc(sysdate,&#39;mm&
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;???+ quote&lt;br /&gt;
- [0-9] 表示任意一个数字 &amp;lt;br&amp;gt;&lt;br /&gt;
-[a-z] 表示任意一个小写字母 &amp;lt;br&amp;gt;&lt;br /&gt;
-[A-Z] 表示任意一个大写字母 &amp;lt;br&amp;gt;&lt;br /&gt;
+ [0-9] 表示任意一个数字 &lt;br&gt;&lt;br /&gt;
+[a-z] 表示任意一个小写字母 &lt;br&gt;&lt;br /&gt;
+[A-Z] 表示任意一个大写字母 &lt;br&gt;&lt;br /&gt;
 [0-9a-zA-Z] 表示任意一个数字或字母&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;文件 test.txt 内容如下:&lt;/em&gt;&lt;/p&gt;
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# cat test.txt &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;You and me.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;xxx is a hanhan. ^_^&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;longzhaoqianwowudunjiu.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;He can speak english.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Are you kidding?&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;I think &lt;span class=&#34;token punctuation&#34;&gt;..&lt;/span&gt;.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;youoy abba ccccc ddd&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;My phone number is &lt;span class=&#34;token number&#34;&gt;1872272&lt;/span&gt;****.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; vvv&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;通配符示例&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#通配符示例&#34;&gt;#&lt;/a&gt; 通配符示例&lt;/h3&gt;
